@@ -2,7 +2,7 @@ import { Hero } from "./Hero";
 import { Navbar } from "./Navbar";
 
 export function Dashboard() {
-    return <div className="text-white">
+    return <div className="text-white bg-black">
         <Navbar />
         <hr className="mt-6 text-gray-700" />
         <Hero />

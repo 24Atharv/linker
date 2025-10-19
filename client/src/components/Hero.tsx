@@ -1,4 +1,5 @@
 import arrrowLeft from '../assets/next.png'
+import { Theme } from './Theme'
 
 export function Hero() {
     return <div className="mt-25">
@@ -14,6 +15,7 @@ export function Hero() {
                 </span>
             </span>
         </div>
+        <Theme />
     </div>
 }
 
