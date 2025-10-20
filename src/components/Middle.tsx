@@ -1,3 +1,4 @@
+import { MiddleBar } from "./MiddleBar";
 
 export function Middle() {
     return <div className="mt-30 flex flex-col items-center justify-center">
@@ -23,6 +24,7 @@ export function Middle() {
             <span className="w-100 text-gray-400">Linear is shaped by the practices and principles that distinguish world-class product teams from the rest: relentless focus, fast execution, and a commitment to the quality of craft.
                 <span className="text-white"> Make the switch</span></span>
         </div>
+        <MiddleBar />
     </div>
 }
 
